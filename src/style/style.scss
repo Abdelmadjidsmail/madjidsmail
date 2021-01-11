@@ -202,6 +202,15 @@ ul {
 
 }
 
+
+
+
+
+
+
+
+
+
 .links {
     color: $LIGHT;
     position: relative;
@@ -280,18 +289,42 @@ nav {
         }
 
         li {
+
+
+            position: relative;
+            animation: rightslide 500ms ease;
+            // animation-direction: reverse;
+
+
             @media screen and (min-width:600px) {
                 margin-left: 1rem;
             }
         }
 
+        @keyframes rightslide {
+            from {
 
+                transform: translateX(100vw);
+                opacity: 0;
+            }
+
+
+            to {
+
+                transform: translateX(0);
+                opacity: 1;
+
+            }
+        }
 
         .router-link-active,
         .router-link-exact-active {
             color: $SECONDARY;
         }
     }
+
+
+
 
 
 }
@@ -302,7 +335,7 @@ nav {
 //home page
 
 .home-container {
-    height: calc(100vh- $nav-height);
+    height: calce(100vh- 80px);
     position: relative;
     height: 400px;
     margin-top: 10rem;
@@ -430,6 +463,13 @@ nav {
         flex-direction: column;
     }
 
+    .line-card__content{
+            li:hover .about-img {
+                transform: scale(1.5);
+    
+            }
+    }
+
     .section__content__card {
         transition: transform 500s ease;
         transform: scale(1);
@@ -485,7 +525,7 @@ nav {
 
 
 .email {
-    margin-top: 1rem;
+    margin-top: 4rem;
     margin-left: 1rem;
 
     h2 {
@@ -512,6 +552,10 @@ nav {
 
 }
 
+.about-link {
+    color: $SECONDARY;
+}
+
 .social-media {
     margin-left: 1rem;
     margin-top: 15em;
@@ -525,7 +569,11 @@ nav {
     }
 }
 
+.contact--h2 {
+    margin: 0;
+    line-height: 1.5;
 
+}
 
 ::-webkit-scrollbar {
     width: 10px;

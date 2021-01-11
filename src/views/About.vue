@@ -9,7 +9,7 @@
           So, I’m <span class="upercase">madjid</span> — a Web dev and cs
           student in Algeria. I love everything that as to do with javascript ,
           web & open source, I don't stop learning, and I keep improving my self
-          in all domains.  and I like keeping it simple 😉
+          in all domains. and I like keeping it simple 😉 <br>
           <!-- I speak English, Arabic , franch & kabyle. -->
         </p>
       </section>

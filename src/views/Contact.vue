@@ -2,13 +2,13 @@
   <div class="contact ">
     <div class="container  contact-container">
       <div class="line-div email">
-        <h4>Get in touch to discuss how we can work together.</h4>
-        <h2>
-          madjismail@gmail.com
+        <p>Get in touch to discuss how we can work together.</p>
+        <h2 class="contact--h2">
+          madjsmail@gmail.com
         </h2>
-        <h2>
-          0668484926
-        </h2>
+        <h4 class="contact--h2">
+          +213668484926
+        </h4>
       </div>
 
       <div class="social-media">

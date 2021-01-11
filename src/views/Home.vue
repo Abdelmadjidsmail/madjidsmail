@@ -13,7 +13,6 @@
             web dev
           </h5>
         </div>
-        <p>Get in touch to discuss how we can work together.</p>
         <router-link class="btn" to="/Portfolio">portfolio</router-link>
       </div>
     </div>
